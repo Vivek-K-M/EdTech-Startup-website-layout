@@ -1,0 +1,398 @@
+
+* {
+    transition: all 300ms ease-in-out;   
+}
+
+body {
+    font-family: "Open Sans", "sans-serif";
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-family: Nunito, sans-serif;
+    font-size: 28px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+#services h3 {
+    text-transform: uppercase;
+}
+
+.container-fluid {
+    padding: 4% 10% 6%;
+}
+
+#title {
+    color: #fff;
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("titlebg.jpg");
+    height: auto;
+    background-size: cover;
+    background-position: center;
+}
+
+#title, .navbar-brand, .navbar-brand:hover, .nav-link, .dwnd-btn2, .dwnd-btn2:hover, #testimonials, #footer, .footer-ficon {
+    color: #fff;
+}
+
+.nav-link:hover, .testimonial-name, .ficon, .footer-ficon:hover {
+    color: #4d8cf5;
+}
+
+
+
+/* *****************************slidedown-navbar*******************************/
+.hidden-container {
+    position: absolute;
+    visibility: hidden;
+}
+
+.nav-div {
+    margin: 17px 8% ;
+}
+
+#fixed-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: #333;
+    opacity: 92%;
+}
+
+.navbrand {
+    font-family: "Nunito", "sans-serif";
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+#fixed-navbar a {
+    color: #fff;
+    padding: 8px;
+}
+
+#fixed-navbar a:hover {
+    text-decoration: none;
+    color: #4d8cf5;
+}
+
+.slidedown-UL {
+    list-style: none;
+    display: flex;
+}
+
+.nav-menu {
+    padding:  8px 0 0;
+    float: right;
+}
+
+.nav-menu a {
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+.hamburger {
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    float: right;
+    display: none;
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+}
+
+.hamburger:focus {
+    outline: none;
+}
+
+
+/* *****************************home-section-navbar*******************************/
+.navbar {
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    font-family: "Nunito", "sans-serif";
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.nav-link {
+    margin: 0 10px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+#title h1 {
+    padding-top: 15%;
+    font-family: "Nunito", "sans-serif";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.title-top {
+    padding: 10px 15%;
+    text-align: center;
+}
+
+.title-text {
+    margin: 20px auto;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.btn {
+    padding: 10px 40px;
+    margin: 4% 1%;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+.dwnd-btn1 {
+    color: #fff;
+    background-color: #4d8cf5;
+}
+
+.dwnd-btn1:hover {
+    background-color: #333;
+    text-decoration: none;
+    color: #fff;
+}
+
+.dwnd-btn2 {
+    border: 1px solid #4d8cf5;
+}
+
+.dwnd-btn2:hover {
+    background-color: #4d8cf5;
+    text-decoration: none;
+}
+
+#about {
+    padding: 8% 0 6%;
+}
+
+.about-top {
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.line-border {
+    margin: 10px auto 20px;
+    height: 2.4px;
+    width: 70px;
+    background-color: #4d8cf5;
+}
+
+.about-content {
+    margin: 0 12%;
+}
+
+.aboutimg {
+    background-size: cover;
+}
+
+.abt-text {
+    padding: 5% 3%;
+}
+
+#testimonials {
+    background-image: linear-gradient(180deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("testimg.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 10% 12%;
+    margin: 6% 0;
+}
+
+#testimonial-carousel {
+    padding: 0% 15%;
+}
+
+.testimonial-top .line-border {
+    background-color: #fff;
+}
+
+.transition {
+    transition: all 3s ease-in-out;
+}
+
+.testimonial-text {
+    font-size: 18px;
+}
+
+.carousel-prev {
+    padding-right: 10%;
+}
+
+.carousel-next {
+    padding-left: 10%;
+}
+
+.testimonial-name {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#services {
+    margin-top: 2px;
+    text-align: left;
+    padding: 4% 12% 0;
+}
+
+.services-top {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.services-col {
+    padding-bottom: 2%;
+    text-align: left;
+}
+
+.services-col p {
+    padding: 0 0 3% 0;
+}
+
+.services-btn {
+    text-align: center;
+}
+
+.dwnd-btn3 {
+    color: #333;
+    border: 1px solid #4d8cf5;
+    font-family: "Nunito", "sans-serif";
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px 30px;
+}
+
+.dwnd-btn3:hover {
+    background-color: #4d8cf5;
+    color: #fff;
+}
+
+.ficon {
+    font-size: 2.2rem;
+    padding-bottom: 1rem;
+}
+
+#contact {
+    text-align: center;
+    padding-bottom: 0;
+    margin-top: 5%;
+}
+
+.form-details {
+    text-align: center;
+}
+
+.form-input {
+    margin: 10px 20%;
+    resize: auto;
+    width: 40%;
+    padding: 12px 15px;
+    outline: none;
+    border: 1px solid #cccccc;
+    text-rendering: auto;
+    font-size: 15px;
+}
+
+.form-input:focus {
+    outline: none;
+    border: 1px solid #4d8cf5;
+}
+
+.msgbtn-div {
+    text-align: center;
+}
+
+.message-btn {
+    color: #fff;
+    background-color: #4d8cf5;
+}
+
+.message-btn:hover {
+    background-color: #222;
+    color: #fff;
+}
+
+#footer {
+    text-align: center;
+    padding: 30px 0 20px;
+    background-color: #222;
+}
+
+.footer-ficon {
+    font-size: 1.3rem;
+    padding: 5px 10px
+}
+
+/* mediaquery for phone screen. */
+@media (max-width: 1000px) {
+
+    .title-cf {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .title-top {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    #title h1 {
+        text-align: center;
+        font-size: 2.5rem;
+        line-height: 1.5;
+        font-weight: 900;
+    }
+
+    .nav-div {
+        margin: 10px 30px 4px;
+    }
+
+    .nav-menu {
+        float: none;
+        background-color: #333; 
+        padding-bottom: 0;
+    }
+
+    .navbrand {
+        padding: 0;
+    }
+
+    .slidedown-UL{
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    #testimonials {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #about, #services {
+        padding-top: 10%;
+    }
+
+    .form-input {
+        width: 80%;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
