@@ -1,4 +1,4 @@
-# EdTech-startup-website-layout-
+# EdTech-startup-website-layout
 <br>Link to the website is: https://vivek-k-m.github.io/EdTech-startup-website-layout/
 <br>This is an EdTech Startup Website layout or template.
 <br>Technologies Used:
